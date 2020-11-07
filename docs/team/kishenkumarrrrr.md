@@ -25,7 +25,7 @@ KanBug Tracker is a lightweight, easy to use bug management tool that aims to em
   
   * What it does: The feature provides the user with the ability to quickly select a target bug and add any number of tags to that bug.
   * Justification: The feature improves KanBug Tracker significantly because users now have a quick and direct method to add more tags to an already existing bug. Without this feature, users will be forced to make use of the existing `edit` command which requires users to retype all of the bug's existing tags in addition to the tags they would now like to add. This saves the user valuable time, helping them improve their productivity and efficiency. 
-  * Highlights: This enhancement requires and in-depth understanding of the Logic component's architecture and how the different components within it interact and function. 
+  * Highlights: This enhancement requires an in-depth understanding of the Logic component's architecture and how the different components within it interact and function. 
   
 * **New Feature**: I implemented the ability to edit tags of an already existing bug via the `editTag` command.
 
