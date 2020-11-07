@@ -592,19 +592,20 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 2.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
 3.  KanBug Tracker should be able to hold up to 10000 **Bug** items without a remarkable sluggishness in performance for typical usage.
 4.  KanBug Tracker should work on both 32-bit and 64-bit environments.
-5.  KanBug Tracker should be intentionally designed for a single-user (i.e. KanBug Tracker should not be a multi-user application).
-6.  KanBug Tracker should be developed incrementally over the project duration.
-7.  The software’s codebase should adhere to OOP principles.
+5.  The size of the compiled JAR file (KanBugTracker.jar) should be less than 100Mb.
+6.  KanBug Tracker should be intentionally designed for a single-user (i.e. KanBug Tracker should not be a multi-user application).
+7.  KanBug Tracker should be developed incrementally over the project duration.
+8.  The software’s codebase should adhere to OOP principles.
 
 ### Glossary
 * **Mainstream OS**: Windows, Linux, Unix, OS-X
 * **Command Line Interface (CLI)**: Text-based user interface that is used to view and manage device files.
-* **GUI**: The Graphical User Interface of KanBug Tracker.
+* **Graphical User Interface (GUI)**: A visual way of interacting with a device using a variety of items (e.g. windows, tables, icons, etc.).
 * **OOP**: Object-Oriented Programming.
 * **Prefix**: A set of characters placed before a specified parameter when typing a command.
 * **Query-string**: The user keyword input to find matches when the search command is executed.
 
-We provides more glossaries for non-technical terms in KanBug Tracker ([here](https://ay2021s1-cs2103t-w17-1.github.io/tp/UserGuide.html#2-glossary))
+We provides more glossaries for non-technical terms of KanBug Tracker in [Glossary of the User Guide](https://ay2021s1-cs2103t-w17-1.github.io/tp/UserGuide.html#2-glossary).
 
 
 

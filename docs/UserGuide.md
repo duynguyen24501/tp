@@ -219,6 +219,7 @@ Format: `help`
 
 - Gets all commands’ syntax and usage and link to this User Guide.
 
+
 ### 3.3 Listing all bugs : `list`
 
 Lists all bugs in the tracker for times when you want to quickly look through all the bugs in the tracker.
@@ -229,12 +230,13 @@ Format: `list`
 
 ### 3.4 Searching for bugs : `search`
 
-When there are a lot of bugs in the tracker, the search command is here to help to find out particular bugs you are looking for.
+When there are a lot of bugs in the tracker, the search command is here to help you to sort out relevant bugs you are searching for.
 
 Format: `search q/QUERYSTRING`
 
 - This command sorts out bugs based on your given query-string. The tracker returns all the bugs that has either name or description or tags containing this query-string as a substring. 
-- The query-string cannot be empty and case-insensitive.
+- The query-string is case-insensitive.
+- The query-string cannot be empty.
 - If there are repetitive `q/` prefixes, the tracker only considers the last one.
 
 Examples:
